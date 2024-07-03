@@ -1,0 +1,574 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header {
+  padding: 10px 180px !important;
+}
+#navbar{
+    padding: 2px 125px !important;
+}
+#section{
+   
+    margin-top: 40px;
+    padding:40px 165px 0 165px !important;
+
+}
+#intro{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between !important;
+    flex-wrap: wrap;
+    padding: 20px 170px !important;
+}
+#searchBox{
+    padding: 20px 120px !important;
+
+}
+
+#searchBox input{
+    border: none;
+    border: 1px solid #ccc;
+    width:50% !important;
+    padding:18px !important;
+}
+
+#srchBtn{
+    padding:19px 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+
+}
+.srchBoxImage{
+    padding: 20px 120px !important;
+    display: flex;
+    flex-direction: column !important;
+    position: relative !important;
+    justify-content: center !important;
+}
+.srchBoxImage img{
+    z-index:-1;
+    position: absolute !important;
+    top:80px !important;
+    
+    width: 84% !important;
+    margin: auto !important;
+    height:500px !important;
+}
+#searchBox{
+    margin-left: -120px !important;
+}
+#images{
+    padding: 10px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly !important;
+    flex-wrap: wrap !important;
+    gap:30px;
+    position: relative !important;
+    top:470px;
+}
+
+#latestJobs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around !important;
+    /* padding: 30px 90px; */
+    position:relative !important;
+    top:570px;
+}
+#latestJobs button{
+    background-color: rgb(48, 60, 226);
+    color:white;
+    padding:10px 20px ;
+}
+#cards{
+display: grid !important;
+grid-template-columns: 1fr 1fr 1fr !important;
+gap:20px;
+    position: relative;
+    top:600px;
+    padding: 10px 170px;
+ 
+}
+#padding{
+    padding: 50px 65px !important;
+}
+#cards .card{
+    margin-top: 20px;
+}
+#fontSize{
+    font-size: 21px !important;
+}
+#work1{
+    display: flex !important;
+    gap:20px;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: space-around !important;
+    position: relative;
+    top:700px !important;
+}
+#work{
+    overflow-x: scroll !important;
+    display: flex !important;
+    gap:20px;
+    align-items: center !important;
+    justify-content: space-around !important;
+    position: relative;
+    top:800px !important;
+}
+#work .card{
+    min-width: 300px;
+}
+
+#build{
+
+    position: relative;
+    top:930px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap:50px;
+    padding: 10px 180px;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+}
+
+#build #buildImage{
+
+    width: 100%;
+    height: 600px;
+}
+#platform1{
+   
+    text-align: center !important;
+    padding: 20px 170px !important;
+    position: relative;
+    top: 1000px !important;
+
+}
+#platform{
+    position: relative;
+    top:100px;
+    display: grid;
+    
+    line-height: 35px !important;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.5px;
+    gap:50px;
+}
+#imageBoy{
+    width: 100% !important;
+    height:500px !important;
+}
+#platform h4{
+    line-height: 30px !important;
+}
+#blog{
+    position: relative;
+    padding: 20px 190px !important;
+    top:1150px !important;
+}
+#blog1{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    gap:20px;
+}
+#blog img{
+    width: 100% !important;
+
+}
+.read{
+    width: 100%;
+    background-color: rgb(232, 230, 230);
+}
+.resource{
+    margin-bottom: 10px;
+    background-color: rgb(218, 217, 243) !important;
+}
+#explore{
+text-align: center;
+    position: relative;
+    top:1200px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+#explore div{
+
+    display: flex;
+    align-items: center;
+
+}
+#explore input{
+border: none !important;
+border: 1px solid grey !important;
+    width: 450px;
+    padding: 12px;
+}
+#explore button{
+    padding: 12px 40px;
+}
+#footer{
+    position:relative !important;
+    top:1200px !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px 190px !important;
+}
+.footerBtn{
+    padding:9px 10px !important;
+    min-width:110px !important;
+}
+#footer input{
+    border: none;
+    border: 1px solid rgb(162, 160, 160);
+    width: 300px !important;
+    padding: 8px;
+}
+.copy{
+    text-align: center;
+    position: relative;
+    top:1220px !important;
+}
+
+
+@media (max-width: 996px) {
+    .hero {
+        padding: 2px 20px !important;
+      }
+      #header {
+        padding: 10px 40px !important;
+      }
+      #navbar{
+        padding: 2px 20px !important;
+    }
+    #section{
+        padding:40px 45px 0 35px !important;
+    
+    }
+    #intro{
+       
+        padding: 20px 50px !important;
+    }
+    #searchBox{
+        padding:40px 30px !important;
+    }
+    .srchBoxImage{
+        position: relative;
+        padding: 10px 30px !important;
+    }
+    .srchBoxImage img{
+        z-index:-1;
+        position: absolute !important;
+        top:50px !important;
+        width: 100% !important;
+        height:400px;
+    }
+    #images{
+      
+        top:460px;
+    }
+    #cards{
+        grid-template-columns: 1fr 1fr !important;
+    }
+    #build{
+        padding: 60px !important;
+        grid-template-columns: 1fr !important;
+       }
+       #platform1{
+        padding: 10px 50px !important;
+    
+       }
+       #blog{
+        position: relative;
+        top:1200px !important;
+        padding: 30px !important;
+    }
+    #blog1{
+        grid-template-columns: 1fr 1fr !important;
+    }
+footer h1{
+    position: relative;
+    top:1230px !important;
+    margin-bottom: 29px;
+    padding: 10px 80px;
+}
+    #footer{
+
+        grid-template-columns: 1fr 1fr 1fr !important;
+    }
+}
+@media (max-width: 768px) {
+    .hero {
+        padding: 2px 20px !important;
+      }
+      #navbar{
+        margin-left: 20px;
+        padding: 2px 0px !important;
+    }
+    #header {
+        padding: 10px 20px !important;
+      }
+      #section{
+        padding:40px 5px 0 5px !important;
+    
+    }
+   
+    #intro,#intro h1{
+        padding: 20px 15px !important;
+    }
+    .srchBoxImage{
+        padding: 20px 0px !important;
+    
+    }
+    #searchBox{
+        margin-top: -30px !important;
+        margin-left: -30px !important;
+    }
+    .srchBoxImage img{
+        top:50px;
+        height: 300px !important;
+        width: 100% !important;
+    }
+    
+    #images{
+        top:220px;
+    }
+    #latestJobs{
+        top:300px;
+    }
+    #cards{
+        top:320px;
+        padding: 10px 30px !important;
+
+        grid-template-columns: 1fr 1fr !important;
+    }
+    #work1{
+        top:390px !important;
+    }
+    #work{
+        top:450px !important;
+    }
+    #build{
+        top:500px !important;
+    }
+    #platform{
+        grid-template-columns: 1fr !important;
+        padding:10px !important;
+    }
+    #platform1{
+        top:500px !important;
+        padding:10px !important;
+    }
+    #blog{
+        position: relative;
+        top:700px !important;
+        padding: 10px !important;
+    }
+    #blog1{
+        grid-template-columns: 1fr 1fr !important;
+    }
+    #explore{
+        position: relative;
+        top:780px !important;
+    }
+    #footer{
+        padding: 50px !important;
+        position: relative;
+        top:800px !important;
+    }
+    footer h1{
+        position: relative;
+        top:800px !important;
+    }
+    .copy{
+        text-align: center;
+        position: relative;
+        top:800px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero {
+        padding: 2px 20px !important;
+      }
+      #navbar{
+        padding: 2px 20px !important;
+    }
+    #header {
+        padding: 10px 20px !important;
+      }
+      #section{
+        padding:40px 5px 0 5px !important;
+    
+    }
+   
+    #intro,#intro h1{
+        padding: 20px 20px !important;
+    }
+    .srchBoxImage{
+        padding: 20px 30px !important;
+    
+    }
+    #latestJobs{
+        padding: 10px 30px !important;
+        top:320px !important;
+    }
+    .srchBoxImage img{
+     width: 100% !important;
+     height: 300px !important;
+    }
+   
+       #work1{
+        top:450px !important;
+       }
+       #work{
+        padding: 10px 30px;
+        top:490px !important;
+       }
+       #cards{
+        
+        top:400px;
+        padding: 10px 30px !important;
+
+        grid-template-columns: 1fr !important;
+    }
+    #build{
+        top:540px !important;
+         padding: 20px !important;
+         grid-template-columns: 1fr !important;
+        }
+        #platform{
+            grid-template-columns: 1fr !important;
+            padding:10px !important;
+        }
+        #platform1{
+            top:600px !important;
+            padding:10px !important;
+        }
+        #blog{
+            position: relative;
+            top:750px !important;
+            padding: 10px !important;
+        }
+        #blog1{
+            grid-template-columns: 1fr 1fr !important;
+        }
+        #explore{
+            padding: 20px !important;
+        }
+        #explore input{
+            width: 300px !important;
+            padding: 13px !important; 
+        }
+        footer{
+            padding: 20px !important;
+        }
+        #footer{
+            padding: 20px !important;
+
+            grid-template-columns:1fr 1fr !important;
+        }
+}
+
+@media (max-width: 378px) {
+    #navbar{
+        padding: 2px 0px !important;
+    }
+    #header {
+        padding: 10px 20px !important;
+      }
+      #section{
+        padding:40px 5px 0 5px !important;
+    }
+    #intro,#intro h1{
+        padding: 20px 20px !important;
+    }
+
+    .srchBoxImage input{
+        /* padding: 10px !important;
+        width:4000px !important; */
+    }
+    .srchBoxImage img{
+        width: 100% !important;
+    }
+    #latestJobs{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap !important;
+        padding: 20px 30px !important;
+        top:280px;
+    }
+    #build{
+        top:420px !important;
+        padding: 20px !important;
+        grid-template-columns: 1fr !important;
+       }
+       #cards{
+        top:330px;
+        padding: 10px 30px !important;
+
+        grid-template-columns: 1fr !important;
+    }
+    #work1{
+        padding: 10px 30px;
+        top:400px !important;
+    }
+    #work{
+        padding: 10px 30px;
+        top:400px !important;
+    }
+    #platform{
+        
+        padding:10px !important;
+    }
+    #platform1{
+        top: 440px !important;
+        padding:10px !important;
+    }
+    #blog{
+        top:560px !important;
+        padding: 10px !important;
+    }
+    #blog1{
+        grid-template-columns: 1fr !important;
+    }
+    #explore{
+        top:590px !important;
+    }
+    #exploreBtn input{
+        padding: 10px !important;
+        width:300px !important;
+    }
+    #exploreBtn{
+        
+        display: flex;
+        flex-direction: column !important;
+        gap:10px;
+    }
+    footer h1{
+        top:600px !important;
+    }
+    #footer{
+        top:600px !important;
+        padding: 10px !important;
+        grid-template-columns: 1fr !important;
+    }
+    #footer1{
+        display: flex !important;
+        flex-direction: column !important;
+        gap:10px;
+
+    }
+    .copy{
+        text-align: center;
+        position: relative;
+        top:600px !important;
+    }
+}
