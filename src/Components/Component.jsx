@@ -66,6 +66,7 @@ function Component() {
                   <button id="srchBtn">Search</button>
               </div>
               <img src="https://assets.website-files.com/63337525695d8ba70ab44222/6358b2bbb9fdec69f1b1c7a4_adam-rhodes-ep5lX958f7E-unsplash-p-1600.webp"></img>
+              {/* <img src="https://assets.website-files.com/63337525695d8ba70ab44222/6358b2bbb9fdec69f1b1c7a4_adam-rhodes-ep5lX958f7E-unsplash-p-1600.webp"></img> */}
          </div>
           
 
@@ -328,7 +329,7 @@ function Component() {
 
           <div id="platform1">
               <p className='text-primary'>TESTIMONIAL</p>
-              <h2>See what users say about our job platform</h2>
+              <h1 class="fw-bold">See what users say about our job platform</h1>
               <div id="platform">
                   <div>
                   <img className='mb-5 card p-2' src="https://assets.website-files.com/63337525695d8ba70ab44222/63337525695d8b3fa3b4427d_Mail%20Chimp%20Icon.svg"></img>
@@ -392,10 +393,12 @@ function Component() {
               </div>
 
           </div>
-          
+         
         <footer>
-              <h1>HireUp</h1>
               <div id="footer">
+                  <div>
+                      <h1>Hire Up</h1>
+                  </div>
                   <div>
                       <h6>PAGES</h6>
                       <div>

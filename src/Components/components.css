@@ -214,11 +214,13 @@ border: 1px solid grey !important;
 #explore button{
     padding: 12px 40px;
 }
+
+
 #footer{
     position:relative !important;
     top:1200px !important;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
     padding: 10px 190px !important;
 }
 .footerBtn{
